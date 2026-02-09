@@ -1708,6 +1708,24 @@ body {
   text-decoration: none;
   font-size: 13px;
 }
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #999999;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-contact-item i {
+  color: #ff9900;
+  font-size: 16px;
+}
+
+.footer-contact-item:hover {
+  color: #ffffff;
+}
 
 @media (max-width: 768px) {
   .footer-top {
